@@ -2,7 +2,7 @@
 
 const soap = require("soap")
 
-const wsdl = "./RCCService.wsdl"
+const wsdl = require.resolve("@megahdrive/rccclient-node/RCCService.wsdl")
 
 function RCCClient(ip, port) {
     this.url = "http://" + ip + ":" + port

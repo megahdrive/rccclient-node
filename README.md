@@ -8,7 +8,7 @@ Simply run the following command:
 npm i https://github.com/megahdrive/rccclient-node
 ```
 ## Example
-```
+```js
 const RCCClient = require("@megahdrive/rccclient-node")
 const ScriptExecution = require("@megahdrive/rccclient-node/ScriptExecution")
 const Job = require("@megahdrive/rccclient-node/Job")
